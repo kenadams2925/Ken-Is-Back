@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^14.14.1",
+    "discord.js-akinator": "^4.1.3",
+    "mongoose": "^8.0.3",
+    "samp-query": "^0.1.5"
+  }
+}
