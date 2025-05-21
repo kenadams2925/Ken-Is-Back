@@ -36,7 +36,7 @@ for (const file of pCommandFiles) {
 client.once('ready', async () => {
     console.log(`${client.user.username} is ready!`);
     client.user.setActivity(".help", { type: ActivityType.Listening });
-    const vgplayerlist = await client.channels.fetch('1373307624782696552')
+    const vgplayerlist = await client.channels.fetch('1374435063084613712')
     vgplayerlist.send('.pu 4'); 
     vgplayerlist.send('.vgp')
    .then((msg) => {
