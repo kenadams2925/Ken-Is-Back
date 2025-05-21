@@ -7,7 +7,7 @@ module.exports = {
     description: 'Minecraft Online Players',
     run: async (client, message, args) => {
 
-        const serverIP = 'logandev.info:25566';
+        const serverIP = 'play.jinxko.com:25566';
         const url = `https://mcapi.us/server/status?ip=${serverIP}`;
 
         // Send an initial message to be edited later
